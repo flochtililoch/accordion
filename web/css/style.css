@@ -1,0 +1,41 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.accordion {
+  width: 33%;
+  margin: 0 auto;
+}
+
+.accordion .heading, .accordion .content {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.accordion .heading {
+  margin: 5px 0 0;
+  border-bottom: 0;
+  background: #ccc;
+}
+
+.accordion .heading a {
+  color: #333;
+  text-decoration: none;
+}
+
+.accordion .content {
+  border-top: 0;
+}
